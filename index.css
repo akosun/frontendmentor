@@ -1,0 +1,144 @@
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+    
+}
+.main{
+    width: 375px;
+    background: hsl(210, 46%, 95%);
+    max-width: 100%;
+    margin: auto;
+}
+@media (min-width: 1440px) {
+.main{
+    width: 100%;
+    background: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+}
+.wholecontent {
+    width: 375px;
+    margin-top: 40px;
+    margin-bottom: 55px;
+    }
+
+@media (min-width: 1440px) {
+    .wholecontent {
+        width: 87%;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        display: grid;
+        grid-template-columns:repeat(4, 1fr) ;
+        grid-template-rows:repeat(2, 1fr) ;
+        gap:25px;
+    }
+    
+    }
+
+    @media (min-width: 1440px) {
+            .box {
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 40px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 10px hsl(0, 0%, 81%);
+            }
+        }
+.box {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 81%);
+    margin-bottom: 30px;
+}
+    
+@media (min-width: 1440px) {
+.content {
+    width: 85%;
+    z-index: 2;  
+    }
+}
+.content {
+    width: 85%;
+    z-index: 2;  
+    }
+.daniel{
+    background:hsl(263, 55%, 52%) ;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    grid-area: 1 / 1 / span 1/ span 2;
+}
+.daniel >.content{
+    width: 85%;
+}
+.daniel >img {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    width: 130px;
+    opacity: 0.5;
+}
+.jonathan{
+    background:hsl(217, 19%, 35%) ;
+    color: hsl(0, 0%, 100%);
+    grid-area: 1 / 3 /span 1/ span 1;
+}
+.jeanette{
+    background:hsl(0, 0%, 100%) ;
+    grid-area: 2 / 1 /span 1/ span 1;
+}
+.patrick{
+    background: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    grid-area: 2 / 2 /span 1/ span 2;
+}
+
+.patrick >.content{
+    width: 85%;
+}
+.kira{
+    background: hsl(0, 0%, 100%);
+    grid-area: 1 / 4 / span 2/ span 1;
+}
+
+.box .content header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nametag {
+    margin-left: 20px; 
+}
+
+.box .content header .nametag h1{
+    margin: 0;
+    font-size: 15px;
+}
+
+.box .content header .nametag p {
+    opacity: 0.5;
+    font-size: 13px;
+    margin: 0px;
+    margin-top:4px;
+}
+.box .content .note p{
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 95%; 
+    margin-bottom: -10px; 
+}
+.box .content .info h1{
+    font-size: 21px; 
+    margin-bottom: 20px;
+}
+.image{
+    border-radius: 50%;
+}
+
